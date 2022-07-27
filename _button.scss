@@ -1,0 +1,24 @@
+.btn {
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  cursor: pointer;
+
+  &.contained {
+    padding: 12px 20px;
+    background-color: #7e3af2;
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  &.text {
+    color: $high;
+  }
+
+  &.outlined {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 12px 20px;
+  }
+}

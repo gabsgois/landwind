@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  cursor: pointer;
+}
+.btn.contained {
+  padding: 12px 20px;
+  background-color: #7e3af2;
+  border-radius: 8px;
+  color: #fff;
+}
+.btn.text {
+  color: #111928;
+}
+.btn.outlined {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 12px 20px;
+}
+
+.header {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  height: 80px;
+  padding-inline: 32px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header-left .logo-text {
+  font-weight: 600;
+  font-size: 24px;
+  color: #111928;
+}
+.header-middle {
+  flex: 1;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 32px;
+}
+.header-middle .link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #111928;
+}
+.header-right {
+  display: flex;
+  gap: 16px;
+}
+@media (max-width: 992px) {
+  .header {
+    padding-top: 32px;
+    flex-direction: column;
+    height: auto;
+  }
+}
+@media (max-width: 600px) {
+  .header-middle {
+    flex-direction: column;
+  }
+}
+
+.hero {
+  display: flex;
+  gap: 12px;
+  padding: 64px 32px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+.hero-content .title {
+  font-weight: 900;
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+.hero-content .paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+.hero-content .box-actions {
+  display: flex;
+  gap: 16px;
+}
+.hero .mkt {
+  max-width: 532px;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-content .box-actions {
+    flex-direction: column;
+  }
+  .hero-content .box-actions .btn:first-of-type {
+    order: 1;
+  }
+  .hero .mkt {
+    margin-top: 32px;
+  }
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: space-between;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 96px;
+  padding-inline: 32px;
+}
+@media (max-width: 992px) {
+  .partners {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
